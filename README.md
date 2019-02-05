@@ -18,3 +18,20 @@ In short, data will travel between a laptop and a BBB, wirelessly as TCP/IP. The
 with a Linux OS and through a cross complier where it will output as a physical movement of motors inwhich will also be recorded and saved. 
 
 So mainly, the users task will endeavor an “input” to the laptop through the uploading of the .txt file with pre-meditated inputs or the Graphic user interface in which we must design. 
+
+### Instructions and Set UP
+
+GPIO 51- RED -  PURPLE WIRE     pin 16 (p9)
+
+GPIO 60 - GREEN - YELLOW WIRE   pin 12  (p9)
+
+GPIO 30 - BLUE - WHITE WIRE     pin 11   (p9)
+
+g++ -Wno-write-strings serv.cpp -o servLights
+
+ssh 192.168.7.2 -l root
+
+http://derekmolloy.ie/gpios-on-the-beaglebone-black-using-device-tree-overlays/
+
+
+![](cape-headers-digital.png)
