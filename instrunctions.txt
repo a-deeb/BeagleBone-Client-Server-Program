@@ -1,0 +1,16 @@
+GPIO 51- RED -  PURPLE WIRE     pin 16 (p9)
+
+GPIO 60 - GREEN - YELLOW WIRE   pin 12  (p9)
+
+GPIO 30 - BLUE - WHITE WIRE     pin 11   (p9)
+
+g++ -Wno-write-strings serv.cpp -o servLights
+
+ssh 192.168.7.2 -l root
+
+http://derekmolloy.ie/gpios-on-the-beaglebone-black-using-device-tree-overlays/
+
+
+
+
+
